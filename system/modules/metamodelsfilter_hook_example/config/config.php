@@ -19,4 +19,3 @@
  * Register HOOK
  */
 $GLOBALS['METAMODEL_HOOKS']['metamodelsfilter']['myFilterHookExample'] = array('MetaModelsFilterHookExample','myFilterFunction');
-$GLOBALS['METAMODEL_HOOKS']['metamodelsfilter']['myFilterHookExample2'] = array('MetaModelsFilterHookExample','myFilterFunction2');
