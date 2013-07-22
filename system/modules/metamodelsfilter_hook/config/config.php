@@ -21,6 +21,6 @@
 $GLOBALS['METAMODELS']['filters']['hook'] = array
 (
 	'class' => 'MetaModelFilterSettingHook',
-	#'attr_filter' => array('hookfunction'),
+	'attr_filter' => array('hook'),
 	'info_callback' => array('TableMetaModelFilterSetting','infoCallback'),
 );

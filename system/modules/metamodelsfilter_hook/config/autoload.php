@@ -21,6 +21,7 @@
  */
 ClassLoader::addClasses(array
 (
+	'MetaModelFilterRuleHook'				=> 'system/modules/metamodelsfilter_hook/MetaModelFilterRuleHook.php',
 	'MetaModelFilterSettingHook'			=> 'system/modules/metamodelsfilter_hook/MetaModelFilterSettingHook.php',
 	'TableMetaModelFilterSetting_Hook'		=> 'system/modules/metamodelsfilter_hook/TableMetaModelFilterSetting_Hook.php',
 ));

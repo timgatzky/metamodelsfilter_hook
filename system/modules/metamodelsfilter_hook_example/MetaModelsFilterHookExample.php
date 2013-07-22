@@ -17,11 +17,13 @@ class MetaModelsFilterHookExample extends Backend
 	 * @param
 	 * @return array	List of item ids
 	 */
-	public function myFilterFunction($objFilter,$objFilterSetting)
+	public function myFilterFunction($objFilterSetting)
 	{
 		// get metamodel
 		$objMetaModel = $objFilterSetting->objFilterSetting->getMetaModel();
 		
-		return array();
+		$arrIds = array();
+		
+		return $arrIds;
 	}
 }
