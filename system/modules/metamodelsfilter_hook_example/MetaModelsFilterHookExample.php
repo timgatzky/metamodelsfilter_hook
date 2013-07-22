@@ -22,6 +22,7 @@ class MetaModelsFilterHookExample extends Backend
 		// get metamodel
 		$objMetaModel = $objFilterSetting->objFilterSetting->getMetaModel();
 		
+		// list of ids
 		$arrIds = array();
 		
 		return $arrIds;
